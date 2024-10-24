@@ -26,9 +26,13 @@ sudo snort -A console -q -u snort -c /etc/snort/snort.conf -i enp0s3
 Here’s what the command options mean:
 
 -A console: Output alerts to the console.
+
 -q: Run in quiet mode (suppress non-error messages).
+
 -u snort: Run Snort as the user "snort".
+
 -c /etc/snort/snort.conf: Specify the configuration file to use.
+
 -i enp0s3: Specify the network interface to monitor (replace enp0s3 with your interface if different).
 
 Test the IDS: On your Kali Linux machine, you can use tools like nmap and ping to simulate an attack:
